@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">Open BYD</string>
+    <string name="accessibility_service_label">Open BYD 方向盘按键映射</string>
+    <string name="accessibility_service_description">拦截并重新映射比亚迪方向盘物理按键为自定义动作和第三方应用。</string>
+
+    <string name="proxy_status">代理状态</string>
+    <string name="starting_proxy">正在通过本地 ADB 启动代理…</string>
+    <string name="proxy_not_ready">代理未就绪</string>
+
+    <string name="steering_wheel_remapper">方向盘按键映射</string>
+    <string name="enable_service">启用服务</string>
+    <string name="refresh_status">刷新状态</string>
+
+    <string name="button_mappings">按键映射</string>
+    <string name="save">保存</string>
+    <string name="package_name_hint">包名 (例如 com.spotify.music)</string>
+    <string name="saved_toast">已保存: %1$s → %2$s</string>
+
+    <string name="car_controls">车辆控制</string>
+    <string name="turn_on_ac">开启空调</string>
+    <string name="turn_off_ac">关闭空调</string>
+    <string name="ac_on_response">空调开启: %1$s</string>
+    <string name="ac_off_response">空调关闭: %1$s</string>
+    <string name="window_response">车窗: %1$s</string>
+    <string name="status_ok">确定</string>
+    <string name="status_error">错误</string>
+
+    <string name="tab_status">状态</string>
+    <string name="tab_mappings">映射</string>
+    <string name="tab_controls">控制</string>
+
+    <string name="action_none">无</string>
+    <string name="action_launch_app">启动应用</string>
+    <string name="action_split_screen">分屏应用</string>
+    <string name="action_launch_app_cluster">在仪表盘上启动应用</string>
+    <string name="action_toggle_ac">切换空调</string>
+    <string name="action_increase_ac">升高空调温度</string>
+    <string name="action_decrease_ac">降低空调温度</string>
+    <string name="action_toggle_window">切换驾驶员车窗</string>
+    <string name="action_toggle_cluster">切换仪表盘投影</string>
+
+    <string name="key_surround_view">全景影像 (摄像头)</string>
+    <string name="key_voice_assistant">语音助手 (长按)</string>
+    <string name="key_custom_left">自定义按键 (左)</string>
+    <string name="key_custom_right">自定义按键 (右)</string>
+
+    <string name="status_not_enabled">⚫ 未启用</string>
+    <string name="status_enabled_not_running">🟡 已启用 — 等待系统启动…</string>
+    <string name="status_running">🟢 正在运行并拦截按键</string>
+
+    <string name="header_windows">车窗</string>
+    <string name="header_climate_control">空调控制</string>
+    <string name="header_assign_action">分配动作</string>
+
+    <string name="label_first_app">第一个应用包名</string>
+    <string name="label_second_app">第二个应用包名</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">确定</string>
+
+    <string name="window_left_front">左前车窗</string>
+    <string name="window_right_front">右前车窗</string>
+    <string name="window_left_rear">左后车窗</string>
+    <string name="window_right_rear">右后车窗</string>
+    <string name="window_moon_roof">天窗</string>
+    <string name="window_sunshade">遮阳帘</string>
+    <string name="window_all">所有车窗</string>
+
+    <string name="state_open">开启 / 下降</string>
+    <string name="state_close">关闭 / 上升</string>
+
+    <string name="menu_configuration">配置</string>
+    <string name="menu_debug_wheel">调试方向盘按键</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_theme">主题</string>
+    <string name="theme_default">系统默认</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="debug_console">调试控制台</string>
+    <string name="debug_waiting_key">正在等待按键按下…</string>
+    <string name="debug_last_key">最后按键代码: %1$d</string>
+    <string name="debug_service_warning">⚠️ 辅助功能服务未运行。按键拦截将无法工作。</string>
+    <string name="label_keycode">按键代码: %1$d</string>
+
+    <string name="btn_add_new">添加新按键</string>
+    <string name="dialog_add_button_title">注册新按键</string>
+    <string name="hint_keycode">输入按键代码 (例如 87)</string>
+    <string name="hint_description">自定义描述 (可选)</string>
+    <string name="btn_capture_last">捕获最后按下的按键</string>
+    <string name="warning_keycode_exists">此按键代码已注册。</string>
+    <string name="btn_delete">删除</string>
+    <string name="toast_deleted">按键 %1$d 已删除</string>
+
+    <string name="tab_projection">投影</string>
+    <string name="tab_steering_wheel">方向盘</string>
+    <string name="tab_car_controls">控制</string>
+
+    <string name="remapper_tip">提示：如果您的按键未列出，请使用右上角菜单中的“调试方向盘按键”来查找具体的按键代码。注意：短按和长按通常发送不同的代码。</string>
+    <string name="cluster_projection">仪表盘投影</string>
+    <string name="cluster_projection_desc">将视图或整个应用程序投影到副仪表盘显示屏上。</string>
+    <string name="app_to_cast">要投影的应用</string>
+    <string name="fullscreen_mode_layout">全屏模式自定义布局</string>
+    <string name="mini_mode_layout">迷你模式自定义布局</string>
+    <string name="width_px">宽度 (px)</string>
+    <string name="height_px">高度 (px)</string>
+    <string name="x_offset_px">X 偏移 (px)</string>
+    <string name="y_offset_px">Y 偏移 (px)</string>
+    <string name="test_overlay">测试覆盖层</string>
+    <string name="stop_projection">停止投影</string>
+    <string name="cast_and_save">投影并保存</string>
+    <string name="refresh_projection">刷新并保存</string>
+    <string name="status_checking">正在检查…</string>
+    <string name="unknown_button">未知按键</string>
+    <string name="settings_split_screen_compatibility">分屏兼容性</string>
+    <string name="split_screen_mode_native">原生</string>
+    <string name="split_screen_mode_projected">投影</string>
+    <string name="split_screen_mode_compat_tap">原生 (模拟点击)</string>
+    <string name="split_screen_compat_tap_desc">模拟点击模式</string>
+    <string name="split_screen_compat_tap_x">点击 X 坐标</string>
+    <string name="split_screen_compat_tap_y">点击 Y 坐标</string>
+    <string name="split_screen_compat_tap_info">在不兼容的系统上模拟点击系统分屏按钮。\n\n要求：\n1. 分屏按钮必须位于系统栏上（例如：中心图标左侧的第 4 或 5 位）。\n2. 在下方配置与您的屏幕分辨率相匹配的 X/Y 坐标。</string>
+    <string name="split_screen_projected_desc">投影模式</string>
+    <string name="split_screen_projected_info">适用于使用 UI 7 的系统，在这些系统中，内置的分屏模式不再允许任何应用，而仅限内置应用。因此，我们使用自定义解决方案将应用投射到主屏幕。</string>
+    <string name="split_screen_mode_dilink6_native">原生 UI 7 (DiLink 6)</string>
+    <string name="split_screen_mode_dilink6_native_desc">原生 UI 7 模式</string>
+    <string name="split_screen_mode_dilink6_native_info">原生修补已安装的应用（通过修改其 APK）。这允许您在 DiLink 6 (UI 7) 上对任何应用进行原生分屏。</string>
+    <string name="tab_split_patching">应用分屏修补</string>
+    <string name="patch_btn_patch">修补应用</string>
+    <string name="patch_status_patched">已修补</string>
+    <string name="patch_status_unpatched">未修补</string>
+    <string name="patch_status_system">系统应用 (不可修补)</string>
+    <string name="patch_search_hint">搜索已安装应用…</string>
+    <string name="patch_console_title">修补进度</string>
+    <string name="patch_btn_reinstall">重新安装已修补应用</string>
+    <string name="patch_btn_reinstalling">正在重新安装应用...</string>
+    <string name="preset_aspect_ratio">预设 2/3 分屏</string>
+    <string name="project_to_left_side">投影到左侧</string>
+
+    <!-- Startup sequence tab -->
+    <string name="tab_startup">启动</string>
+    <string name="startup_sequence">启动序列</string>
+    <string name="startup_sequence_desc">每次汽车连接到应用时，这些操作将自动执行。</string>
+    <string name="btn_add_action">添加动作</string>
+    <string name="dialog_add_action_title">添加启动动作</string>
+    <string name="label_delay_header">执行前延迟</string>
+    <string name="label_delay_seconds">延迟：%1$s</string>
+    <string name="startup_empty_hint">暂无启动动作，点击"添加动作"开始。</string>
+    <string name="startup_action_saved">动作已保存</string>
+    <string name="startup_action_deleted">动作 #%1$d 已删除</string>
+    <string name="btn_test_run">测试运行</string>
+
+    <string name="ui7_split_options">UI 7 分屏选项</string>
+    <string name="split_projection_side">覆盖层位置</string>
+    <string name="side_left">左侧</string>
+    <string name="side_right">右侧</string>
+    <string name="split_projected_target">投影目标</string>
+    <string name="target_first_app">第一个应用</string>
+    <string name="target_second_app">第二个应用</string>
+    <string name="split_ratio_label">分屏比例</string>
+
+    <!-- Diagnostic View strings -->
+    <string name="menu_diagnostic_view">诊断与日志</string>
+    <string name="diagnostic_view_title">系统诊断</string>
+    <string name="diag_module_screens">屏幕与显示诊断</string>
+    <string name="diag_module_logs">系统日志查看器</string>
+    <string name="diag_btn_execute_logcat">执行 logcat</string>
+    <string name="diag_btn_copy_clipboard">复制到剪贴板</string>
+    <string name="diag_btn_refresh">刷新显示</string>
+    <string name="diag_no_logs">未加载日志。点击“执行 logcat”获取日志。</string>
+    <string name="diag_logs_copied">日志已复制到剪贴板！</string>
+    <string name="diag_display_id">显示器 ID: %1$d</string>
+    <string name="diag_display_name">名称: %1$s</string>
+    <string name="diag_display_metrics">分辨率: %1$d × %2$d (%3$d dpi)</string>
+    <string name="diag_display_role_main">主屏幕 (默认显示)</string>
+    <string name="diag_display_role_dashboard">仪表盘 (仪表屏幕)</string>
+    <string name="diag_display_role_dashboard_fallback">仪表盘备用 (无活动匹配)</string>
+    <string name="diag_display_role_none">次要 / 虚拟显示</string>
+    <string name="diag_displays_recognized">已识别屏幕 (%1$d):</string>
+    <string name="diag_btn_set_main">设为主屏幕</string>
+    <string name="diag_btn_set_dashboard">设为仪表盘</string>
+    <string name="diag_btn_reset_defaults">重置默认值</string>
+    <string name="diag_btn_test_overlay">测试覆盖层</string>
+    <string name="diag_msg_main_set">主屏幕已覆盖为显示器 %1$d</string>
+    <string name="diag_msg_dashboard_set">仪表盘已覆盖为显示器 %1$d</string>
+    <string name="diag_msg_resets">显示角色已重置为自动检测</string>
+    <string name="diag_badge_manual">手动</string>
+    <string name="diag_badge_auto">自动</string>
+
+    <string name="diag_health_title">系统健康状况</string>
+    <string name="diag_health_proxy">代理</string>
+    <string name="diag_health_sdk">SDK 访问</string>
+    <string name="diag_health_accessibility">按键拦截</string>
+    <string name="diag_status_connected">已连接</string>
+    <string name="diag_status_disconnected">未连接</string>
+    <string name="diag_status_running">正在运行</string>
+    <string name="diag_status_not_running">未运行</string>
+    <string name="diag_status_ok">正常</string>
+    <string name="diag_status_no_access">无权限</string>
+
+    <string name="dilink_mode_auto">自动检测</string>
+    <string name="dilink_mode_7">强制 UI 7</string>
+    <string name="dilink_mode_5">强制 DiLink 5 (旧版)</string>
+    <string name="dilink_compatibility_mode">DiLink 兼容性</string>
+    <string name="dilink_status_title">当前状态：</string>
+    <string name="dilink_status_dilink6_forced">UI 7 (强制)</string>
+    <string name="dilink_status_dilink5_forced">DiLink 5/旧版 (强制)</string>
+    <string name="dilink_status_dilink6_auto">UI 7 (自动检测)</string>
+    <string name="dilink_status_dilink5_auto">DiLink 5/旧版 (自动检测)</string>
+    <string name="dilink_status_proxy_offline">自动检测中 (代理离线)</string>
+
+    <string name="cluster_layout_mode">仪表盘布局模式</string>
+    <string name="cluster_layout_auto">从车辆自动检测</string>
+    <string name="cluster_layout_force_mini">强制迷你模式</string>
+    <string name="cluster_layout_force_fullscreen">强制全屏模式</string>
+
+    <string name="projection_gradients_title">投影舒适度</string>
+    <string name="projection_gradients_desc">在投影图像的顶部和底部添加深色边缘渐变，以提高车辆物理白色仪表字母的可读性。</string>
+    <string name="projection_gradients_toggle">对比度边缘渐变</string>
+    <string name="projection_gradients_theme_label">渐变颜色主题</string>
+    <string name="projection_gradient_mode_auto">自动</string>
+    <string name="projection_gradient_mode_dark">强制深色 (炭黑色)</string>
+    <string name="projection_gradient_mode_light">强制浅色 (白色)</string>
+    <string name="projection_gradients_intensity">渐变强度</string>
+    <string name="projection_gradients_left">左侧边缘渐变</string>
+    <string name="projection_gradients_left_desc">在投影的左侧添加额外的对比度渐变。</string>
+
+    <!-- Guide Information Dialog Strings -->
+    <string name="info_title_projection_comfort">对比度边缘渐变</string>
+    <string name="info_desc_projection_comfort">工作原理：\n将应用投射到仪表盘副屏时，有时会在车辆物理白色的时速表/转速表指针上叠加白色背景，从而导致难以看清。启用此功能将在投影区域的顶部和底部边缘叠加柔和的半透明渐变条（深色模式下为黑色，浅色模式下为白色），以保持仪表盘的可读性。您可以选择让渐变随系统主题自动切换，或手动进行强制设置。\n\n选项：\n• 对比度边缘渐变开关：启用或禁用屏幕边缘的保护性对比渐变。</string>
+
+    <string name="info_title_cluster_projection">仪表盘投影</string>
+    <string name="info_desc_cluster_projection">工作原理：\n此菜单用于配置如何将应用程序投射到车辆的仪表盘副屏上。配置完成后，建议将仪表盘启动动作或切换仪表盘投影绑定到方向盘的物理按键上，以此来与应用进行交互。\n\n选项：\n• 要投影的应用：搜索并选择任何已安装的应用以进行投影。以下设置将专门为此应用保存；如果未配置任何参数，则使用默认设置。\n• 仪表盘布局模式：\n  - 从车辆自动检测：根据车辆状态自动匹配显示布局。（注意：这在 UI 7 系统上可能无法正常工作）。\n  - 强制迷你模式：推荐模式，因为它仍允许显示 ADAS 系统/视图。\n  - 强制全屏模式：缩放投影应用以填满整个屏幕。\n• 自定义布局设置 (全屏 / 迷你)：\n  - 宽度 / 高度：调整投影的精确宽度和高度（像素）。\n  - X / Y 偏移：水平 (X) 或垂直 (Y) 移动投影，以使其完美呈现在屏幕上。\n  - 屏幕密度 (DPI)：调整投影应用程序的渲染缩放比例（放大/缩小）。\n• 投影并保存：立即开始投影并保存您的布局配置。\n• 停止投影：立即关闭仪表盘屏幕上的活动投影。\n\n💡 故障排除提示：如果仪表盘投屏不起作用，请查看“系统诊断”界面。确认应用是否选择了正确的显示器，并在目标屏幕上运行“测试覆盖层”，直到它成功显示。</string>
+    <string name="info_desc_cluster_projection_simplified">工作原理：\n此菜单用于配置如何将应用程序投射到车辆的仪表盘副屏上。您可以选择应用、设置其布局模式、配置自定义尺寸和偏移，并添加启动投屏时运行的自动化操作（模拟点击）。配置完成后，您可以通过方向盘的物理按键来启动或切换投影。</string>
+    <string name="info_title_cluster_layout_mode">仪表盘布局模式</string>
+    <string name="info_desc_cluster_layout_mode">工作原理：\n定义投影应用在仪表盘屏幕上的显示布局结构。\n\n模式：\n• 从车辆自动检测：根据车辆状态自动匹配显示布局（在 UI 7 系统上可能无法正常工作）。\n• 强制迷你模式：推荐模式，因为它仍允许在侧边显示 ADAS 系统/视图。\n• 强制全屏模式：缩放投影应用以填满整个副仪表盘屏幕。</string>
+    <string name="info_title_projection_dimensions">投影尺寸与偏移量</string>
+    <string name="info_desc_projection_dimensions">工作原理：\n允许您覆盖副屏幕上渲染的默认尺寸、偏移量和屏幕密度（DPI）。\n\n调整选项：\n• 宽度 / 高度：调整投影渲染区域的精确像素分辨率。\n• X / Y 偏移：在物理仪表盘屏幕上定位投影窗口（可使用正负值进行对齐）。\n• 屏幕密度 (DPI)：调整投影应用程序的渲染缩放比例（放大/缩小）。较低的值可以容纳更多内容，较高的值会使界面元素变大。</string>
+    <string name="info_title_app_automations">应用自动化</string>
+    <string name="info_desc_app_automations" formatted="false">工作原理：\n应用自动化是应用投屏后自动执行的模拟屏幕点击。这对于自动关闭重要提示、点击登录按钮或自动切换视图非常有用。\n\n配置参数：\n• 延迟：投屏启动后在模拟点击前等待的毫秒数。\n• 坐标 (X, Y)：屏幕上的百分比位置。(0%, 0%) 代表左上角，(100%, 100%) 代表右下角。</string>
+
+    <string name="info_title_steering_wheel">方向盘按键映射</string>
+    <string name="info_desc_steering_wheel">工作原理：\n允许您重新编程方向盘上的物理按键，以执行自定义动作（如打开分屏应用、调节空调或切换投影）。\n\n动作与配置：\n• 分配动作：选择要触发的动作：\n  - 启动应用：在主显示屏上打开所选应用。\n  - 在仪表盘上启动应用：在仪表盘显示屏上打开所选应用。\n  - 分屏应用：并排启动两个应用。\n    * 在投影分屏模式下，您可以配置：\n      - 投影目标：选择第一个还是第二个应用在自定义投影覆盖层内渲染。\n      - 分屏比例：选择每个应用在屏幕上占用的空间（1/3、1/2 或 2/3）。\n  - 切换空调：立即开启/关闭空调电源。\n  - 切换驾驶员车窗：升起或降下驾驶员前车窗。\n  - 切换仪表盘投影：将仪表盘中当前运行的应用送回主屏幕。如果仪表盘中没有应用，它将获取主屏幕上当前打开的任何应用并投影到仪表盘。再次点击将应用拉回主屏幕。（注意：强烈建议改用“在仪表盘上启动应用”，由于它针对特定应用，因此更不容易出错）。</string>
+
+    <string name="info_title_car_controls">车辆控制</string>
+    <string name="info_desc_car_controls">工作原理：\n此部分用于测试车机与应用的集成是否如预期般工作。它允许手动控制车窗和空调设置，以验证连接和命令是否正常工作。\n\n选项：\n• 驾驶员前车窗 / 所有车窗：同时或单独降下（开启）或升起（关闭）特定车窗。\n• 空调控制：开启或关闭车辆空调以测试连接。</string>
+
+    <string name="info_title_startup_sequence">启动序列</string>
+    <string name="info_desc_startup_sequence">工作原理：\n定义当汽车启动时，按指定顺序一个接一个自动执行的动作列表。\n\n重要提示：为了使此功能正常工作，您必须前往车辆的设置应用，导航至自启动设置，禁用自启动并取消勾选此应用以允许其自启动。\n\n选项：\n• 执行前延迟：在启动此步骤前最多暂停 15 秒。注意：如果同时打开多个应用，系统 UI 可能会变得不稳定或出现异常。如果发生这种情况，请在启动应用之间添加短暂延迟，直到序列能稳定执行。\n• 添加动作：在序列中创建一个新的自动步骤。\n• 测试运行：实时逐步执行整个序列，帮助您测试和微调延迟时间。</string>
+
+    <string name="info_title_split_screen">分屏兼容性</string>
+    <string name="info_desc_split_screen">工作原理：\n定义应用如何协调分屏模式，从而在车机系统 UI 的不同代际之间实现完全兼容。\n\n选项：\n• 原生模式：标准系统分屏。推荐给完全支持原生第三方应用分屏的系统。\n• 原生 UI 7 (DiLink 6)：原生修补已安装的应用（通过修改其 APK）。这允许您在 DiLink 6 (UI 7) 上对任何应用进行原生分屏。\n• 投影模式：自定义分屏布局，将一个应用叠加在另一个应用之上。绕过 UI 7 严格的分屏限制，并允许自定义比例调整。\n• 原生 (模拟点击)：通过在系统的原生分屏工具栏按钮上模拟精确的屏幕触控/点击，绕过某些固件版本上的分屏限制。</string>
+    <string name="projection_trouble_tip">投影不起作用？检查应用是否选择了正确的显示器。点击打开“诊断与日志”，滚动到“已识别屏幕”，然后测试覆盖层，直到有一个在您的仪表盘上正常显示。</string>
+    <string name="btn_open_diagnostics">打开诊断</string>
+    <string name="density_dpi">屏幕密度 (DPI)</string>
+
+    <!-- Projection Automations -->
+    <string name="automations_title">应用自动化</string>
+    <string name="automations_desc" formatted="false">当应用投射到仪表盘屏幕时，这些操作将自动运行，允许在特定坐标处模拟点击。X 控制水平位置（从 0% 左侧到 100% 右侧），Y 控制垂直位置（从 0% 顶部到 100% 底部），其中 (0%, 0%) 代表左上角。</string>
+    <string name="btn_add_task">添加任务</string>
+    <string name="label_delay_ms">延迟：%1$d 毫秒</string>
+    <string name="label_x_percent">X 坐标：%1$.1f%%</string>
+    <string name="label_y_percent">Y 坐标：%1$.1f%%</string>
+    <string name="dialog_add_task_title">添加自动任务 (0,0 为左上角)</string>
+    <string name="dialog_edit_task_title">编辑自动任务 (0,0 为左上角)</string>
+    <string name="task_saved">任务已保存</string>
+    <string name="task_deleted">任务 #%1$d 已删除</string>
+    <string name="empty_automations_hint">尚无自动任务。点击“添加任务”开始。</string>
+    <string name="label_delay_header_ms">任务前延迟 (毫秒)</string>
+    <string name="x_percent_label">X - 水平位置 (0% = 左侧)</string>
+    <string name="y_percent_label">Y - 垂直位置 (0% = 顶部)</string>
+    <string name="split_ratio_native_ui7_label">第一应用目标大小</string>
+    <string name="split_ratio_native_ui7_info_title">第一应用启动行为</string>
+    <string name="split_ratio_native_ui7_info_desc">此设置确定第一应用的启动位置：\n\n• 如果当前未开启分屏：第一应用将在左侧打开，第二应用将在右侧打开。\n• 如果分屏已开启：第一应用将在所选的特定目标大小/窗格（1/3 或 2/3）中启动。</string>
+    <string name="diag_info_proxy_title">代理服务状态</string>
+    <string name="diag_info_proxy_desc">代理是本应用的核心关键部分。如果它未运行，大多数功能和应用本身将无法工作。我们建议检查开发者选项中是否已启用并授权 USB/ADB 调试，尝试重新启动应用或车载系统，并确保您已向此应用授予 ADB 访问权限。</string>
+    <string name="diag_info_sdk_title">SDK 直接访问状态</string>
+    <string name="diag_info_sdk_desc">SDK 是一个可以忽略的次要组件，并非所有车辆都兼容。然而，在没有它的情况下，直接控制车辆的命令（例如摇下车窗）以及某些自动检测功能将无法工作。</string>
+    <string name="diag_info_accessibility_title">按键拦截服务状态</string>
+    <string name="diag_info_accessibility_desc">此服务负责处理方向盘按键拦截和按钮重映射。如果主 ADB 代理已启动并成功连接，该服务最理想地正常运行。</string>
+    <string name="info_title_byd_map_sync">BYD 地图布局同步</string>
+    <string name="info_desc_byd_map_sync">这些配置仅在当前应用内生效。您还需要在 BYD 官方地图应用中更改相应的设置，以匹配所选的模式（迷你或全屏）。\n\n这对于 DiLink 5 系统尤为重要；对于 DiLink 6 系统则无影响。</string>
+</resources>

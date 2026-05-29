@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">Open BYD</string>
+    <string name="accessibility_service_label">Open BYD Steering Wheel Remapper</string>
+    <string name="accessibility_service_description">Intercepts and remaps BYD steering wheel hardware buttons to custom actions and third-party apps.</string>
+
+    <string name="proxy_status">Proxy Status</string>
+    <string name="starting_proxy">Starting proxy via Local ADB…</string>
+    <string name="proxy_not_ready">Proxy not ready</string>
+
+    <string name="steering_wheel_remapper">Steering Wheel Remapper</string>
+    <string name="enable_service">Enable Service</string>
+    <string name="refresh_status">Refresh Status</string>
+
+    <string name="button_mappings">Button Mappings</string>
+    <string name="save">Save</string>
+    <string name="package_name_hint">Package name (e.g. com.spotify.music)</string>
+    <string name="saved_toast">Saved: %1$s → %2$s</string>
+
+    <string name="car_controls">Car Controls</string>
+    <string name="turn_on_ac">Turn On AC</string>
+    <string name="turn_off_ac">Turn Off AC</string>
+    <string name="ac_on_response">AC On: %1$s</string>
+    <string name="ac_off_response">AC Off: %1$s</string>
+    <string name="window_response">Window: %1$s</string>
+    <string name="status_ok">OK</string>
+    <string name="status_error">Error</string>
+
+    <string name="tab_status">Status</string>
+    <string name="tab_mappings">Mappings</string>
+    <string name="tab_controls">Controls</string>
+
+    <string name="action_none">None</string>
+    <string name="action_launch_app">Launch App</string>
+    <string name="action_split_screen">Split Screen Apps</string>
+    <string name="action_launch_app_cluster">Launch App on Cluster</string>
+    <string name="action_toggle_ac">Toggle AC</string>
+    <string name="action_increase_ac">Increase AC Temp</string>
+    <string name="action_decrease_ac">Decrease AC Temp</string>
+    <string name="action_toggle_window">Toggle Driver Window</string>
+    <string name="action_toggle_cluster">Toggle Cluster Projection</string>
+
+    <string name="key_surround_view">Surround View (Camera)</string>
+    <string name="key_voice_assistant">Voice Assistant (Long Press)</string>
+    <string name="key_custom_left">Custom button (Left)</string>
+    <string name="key_custom_right">Custom button (Right)</string>
+
+    <string name="status_not_enabled">⚫ Not enabled</string>
+    <string name="status_enabled_not_running">🟡 Enabled — waiting for OS to start…</string>
+    <string name="status_running">🟢 Running and intercepting keys</string>
+
+    <string name="header_windows">Windows</string>
+    <string name="header_climate_control">Climate Control</string>
+    <string name="header_assign_action">Assign Action</string>
+
+    <string name="label_first_app">First App Package</string>
+    <string name="label_second_app">Second App Package</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="window_left_front">Left Front Window</string>
+    <string name="window_right_front">Right Front Window</string>
+    <string name="window_left_rear">Left Rear Window</string>
+    <string name="window_right_rear">Right Rear Window</string>
+    <string name="window_moon_roof">Moon Roof / Sunroof</string>
+    <string name="window_sunshade">Sunshade Panel</string>
+    <string name="window_all">All Windows</string>
+
+    <string name="state_open">Roll Down / Open</string>
+    <string name="state_close">Roll Up / Close</string>
+
+    <string name="menu_configuration">Configuration</string>
+    <string name="menu_debug_wheel">Debug Wheel Buttons</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_default">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="debug_console">Debug Console</string>
+    <string name="debug_waiting_key">Waiting for key press…</string>
+    <string name="debug_last_key">Last Keycode: %1$d</string>
+    <string name="debug_service_warning">⚠️ Accessibility Service is not running. Key interception will not work.</string>
+    <string name="label_keycode">Keycode: %1$d</string>
+
+    <string name="btn_add_new">Add New Button</string>
+    <string name="dialog_add_button_title">Register New Button</string>
+    <string name="hint_keycode">Enter Keycode (e.g. 87)</string>
+    <string name="hint_description">Custom Description (optional)</string>
+    <string name="btn_capture_last">Capture Last Pressed</string>
+    <string name="warning_keycode_exists">This Keycode is already registered.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="toast_deleted">Button %1$d deleted</string>
+
+    <string name="tab_projection">Projection</string>
+    <string name="tab_steering_wheel">Steering Wheel</string>
+    <string name="tab_car_controls">Controls</string>
+
+    <string name="remapper_tip">Tip: If your buttons aren\'t listed, use the menu (top right) -> \'Debug Steering Wheel\' to find your specific keycodes. Note: Short and Long presses often send different keycodes.</string>
+    <string name="cluster_projection">Cluster Projection</string>
+    <string name="cluster_projection_desc">Project a view or an entire application onto the secondary instrument cluster display.</string>
+    <string name="app_to_cast">App to Cast</string>
+    <string name="fullscreen_mode_layout">Fullscreen Mode Custom Layout</string>
+    <string name="mini_mode_layout">Mini Mode Custom Layout</string>
+    <string name="width_px">Width (px)</string>
+    <string name="height_px">Height (px)</string>
+    <string name="x_offset_px">X Offset (px)</string>
+    <string name="y_offset_px">Y Offset (px)</string>
+    <string name="test_overlay">Test Overlay</string>
+    <string name="stop_projection">Stop Projection</string>
+    <string name="cast_and_save">Cast &amp; Save</string>
+    <string name="refresh_projection">Refresh &amp; Save</string>
+    <string name="status_checking">Checking…</string>
+    <string name="unknown_button">Unknown Button</string>
+    <string name="settings_split_screen_compatibility">Split Screen Compatibility</string>
+    <string name="split_screen_mode_native">Native</string>
+    <string name="split_screen_mode_projected">Projected</string>
+    <string name="split_screen_mode_compat_tap">Native (Simulated Tap)</string>
+    <string name="split_screen_compat_tap_desc">Simulated Tap Mode</string>
+    <string name="split_screen_compat_tap_x">Tap X Coordinate</string>
+    <string name="split_screen_compat_tap_y">Tap Y Coordinate</string>
+    <string name="split_screen_compat_tap_info">Simulates clicking the system split-screen button for incompatible systems.\n\nRequirements:\n1. The split-screen button must be on your system bar (e.g., position 4/5, left of the center icon).\n2. Configure the X/Y coordinates below to match your screen resolution.</string>
+    <string name="split_screen_projected_desc">Projected Mode</string>
+    <string name="split_screen_projected_info">It is for systems with UI 7 in which the built-in split-screen mode no longer allows any app, but only built-in ones. So we use a custom solution to cast apps in the main screen.</string>
+    <string name="split_screen_mode_dilink6_native">Native UI 7 (DiLink 6)</string>
+    <string name="split_screen_mode_dilink6_native_desc">Native UI 7 Mode</string>
+    <string name="split_screen_mode_dilink6_native_info">Natively patches installed applications by modifying their APK. This allows you to split-screen any app on DiLink 6 (UI 7).</string>
+    <string name="tab_split_patching">Split Patching</string>
+    <string name="patch_btn_patch">Patch App</string>
+    <string name="patch_status_patched">Patched</string>
+    <string name="patch_status_unpatched">Not Patched</string>
+    <string name="patch_status_system">System (Unpatchable)</string>
+    <string name="patch_search_hint">Search installed apps…</string>
+    <string name="patch_console_title">Patching Progress</string>
+    <string name="patch_btn_reinstall">Re-install Patched App</string>
+    <string name="patch_btn_reinstalling">Re-installing app...</string>
+    <string name="preset_aspect_ratio">Preset 2/3</string>
+    <string name="project_to_left_side">Project to Left Side</string>
+
+    <!-- Startup sequence tab -->
+    <string name="tab_startup">Startup</string>
+    <string name="startup_sequence">Startup Sequence</string>
+    <string name="startup_sequence_desc">These actions run automatically each time the car connects to the app.</string>
+    <string name="btn_add_action">Add Action</string>
+    <string name="dialog_add_action_title">Add Startup Action</string>
+    <string name="label_delay_header">Delay before action</string>
+    <string name="label_delay_seconds">Delay: %1$s</string>
+    <string name="startup_empty_hint">No startup actions yet. Tap "Add Action" to begin.</string>
+    <string name="startup_action_saved">Action saved</string>
+    <string name="startup_action_deleted">Action #%1$d deleted</string>
+    <string name="btn_test_run">Test Run</string>
+
+    <string name="ui7_split_options">UI 7 Split Options</string>
+    <string name="split_projection_side">Overlay Position</string>
+    <string name="side_left">Left</string>
+    <string name="side_right">Right</string>
+    <string name="split_projected_target">Projected Target</string>
+    <string name="target_first_app">First App</string>
+    <string name="target_second_app">Second App</string>
+    <string name="split_ratio_label">Split Ratio</string>
+
+    <!-- Diagnostic View strings -->
+    <string name="menu_diagnostic_view">Diagnostics &amp; Logs</string>
+    <string name="diagnostic_view_title">System Diagnostics</string>
+    <string name="diag_module_screens">Screen &amp; Display Diagnostics</string>
+    <string name="diag_module_logs">System Log Viewer</string>
+    <string name="diag_btn_execute_logcat">Execute logcat</string>
+    <string name="diag_btn_copy_clipboard">Copy to Clipboard</string>
+    <string name="diag_btn_refresh">Refresh Displays</string>
+    <string name="diag_no_logs">No logs loaded. Click "Execute logcat" to retrieve logs.</string>
+    <string name="diag_logs_copied">Logs copied to clipboard!</string>
+    <string name="diag_display_id">Display ID: %1$d</string>
+    <string name="diag_display_name">Name: %1$s</string>
+    <string name="diag_display_metrics">Resolution: %1$d × %2$d (%3$d dpi)</string>
+    <string name="diag_display_role_main">Main Screen (Default Display)</string>
+    <string name="diag_display_role_dashboard">Dashboard (Cluster Screen)</string>
+    <string name="diag_display_role_dashboard_fallback">Dashboard Fallback (No active match)</string>
+    <string name="diag_display_role_none">Secondary / Virtual Display</string>
+    <string name="diag_displays_recognized">Recognized Screens (%1$d):</string>
+    <string name="diag_btn_set_main">Use for Main Screen</string>
+    <string name="diag_btn_set_dashboard">Use for Dashboard</string>
+    <string name="diag_btn_reset_defaults">Reset Defaults</string>
+    <string name="diag_btn_test_overlay">Test Overlay</string>
+    <string name="diag_msg_main_set">Main screen overridden to Display %1$d</string>
+    <string name="diag_msg_dashboard_set">Dashboard screen overridden to Display %1$d</string>
+    <string name="diag_msg_resets">Display roles reset to auto-detect</string>
+    <string name="diag_badge_manual">Manual</string>
+    <string name="diag_badge_auto">Auto</string>
+
+    <string name="diag_health_title">System Health</string>
+    <string name="diag_health_proxy">Proxy</string>
+    <string name="diag_health_sdk">SDK Access</string>
+    <string name="diag_health_accessibility">Key Interception</string>
+    <string name="diag_status_connected">Connected</string>
+    <string name="diag_status_disconnected">Disconnected</string>
+    <string name="diag_status_running">Running</string>
+    <string name="diag_status_not_running">Not Running</string>
+    <string name="diag_status_ok">OK</string>
+    <string name="diag_status_no_access">No Access</string>
+
+    <string name="dilink_mode_auto">Auto-detect</string>
+    <string name="dilink_mode_7">Force UI 7</string>
+    <string name="dilink_mode_5">Force DiLink 5 (Older)</string>
+    <string name="dilink_compatibility_mode">DiLink Compatibility</string>
+    <string name="dilink_status_title">Active State:</string>
+    <string name="dilink_status_dilink6_forced">UI 7 (Forced)</string>
+    <string name="dilink_status_dilink5_forced">DiLink 5/Older (Forced)</string>
+    <string name="dilink_status_dilink6_auto">UI 7 (Auto-detected)</string>
+    <string name="dilink_status_dilink5_auto">DiLink 5/Older (Auto-detected)</string>
+    <string name="dilink_status_proxy_offline">Auto-detecting (Proxy offline)</string>
+
+    <string name="cluster_layout_mode">Cluster Layout Mode</string>
+    <string name="cluster_layout_auto">Auto-detect from car</string>
+    <string name="cluster_layout_force_mini">Force Mini Mode</string>
+    <string name="cluster_layout_force_fullscreen">Force Fullscreen Mode</string>
+
+    <string name="projection_gradients_title">Projection Comfort</string>
+    <string name="projection_gradients_desc">Adds dark edge gradients at the top and bottom of the projected image to improve readability of the cars physical white instrument lettering.</string>
+    <string name="projection_gradients_toggle">Contrast Edge Gradients</string>
+    <string name="projection_gradients_theme_label">Gradient Color Theme</string>
+    <string name="projection_gradient_mode_auto">Auto</string>
+    <string name="projection_gradient_mode_dark">Force Dark (Charcoal)</string>
+    <string name="projection_gradient_mode_light">Force Light (White)</string>
+    <string name="projection_gradients_intensity">Gradient Intensity</string>
+    <string name="projection_gradients_left">Left Edge Gradient</string>
+    <string name="projection_gradients_left_desc">Adds an additional contrast gradient to the left side of the projection.</string>
+
+    <!-- Guide Information Dialog Strings -->
+    <string name="info_title_projection_comfort">Contrast Edge Gradients</string>
+    <string name="info_desc_projection_comfort">How it works:\nCasting apps to the secondary dashboard/instrument cluster display can overlay white backgrounds on top of the car\'s physical white speedometer/tachometer indicators, making them hard to read. Enabling this feature overlays subtle, semi-transparent gradient bars (black for Dark Mode, white for Light Mode) at the top and bottom edges of the projected area to keep your dashboard readable. You can choose whether these gradients automatically follow your theme, or manually force them.\n\nOptions:\n• Contrast Edge Gradients Toggle: Enables or disables the protective contrast gradients at the screen edges.</string>
+
+    <string name="info_title_cluster_projection">Instrument Cluster Projection</string>
+    <string name="info_desc_cluster_projection">How it works:\nThis menu is designed to configure how an app should be cast to your car\'s secondary instrument cluster display screen. Once configured, it is recommended to bind the launch action on the dashboard or toggle cluster projection to a physical steering wheel button, and interact with your apps in this way.\n\nOptions:\n• App to Cast: Search and select any installed app to cast. The settings below will be saved specifically for this application; if no parameters are configured for the app, default settings will be used.\n• Cluster Layout Mode:\n  - Auto-detect from car: Automatically matches the display layout based on vehicle status. (Note: This may not work on UI 7 systems).\n  - Force Mini Mode: Preferred mode as it still allows the ADAS system/view to be visible.\n  - Force Fullscreen Mode: Scales the projected app to fit the entire screen.\n• Custom Layout Settings (Fullscreen / Mini):\n  - Width / Height: Adjust the exact width and height of the projection in pixels.\n  - X / Y Offset: Move the projection horizontally (X) or vertically (Y) to position it perfectly on your screen.\n  - Density DPI: Adjust the rendering scale (zoom in/out) of the projected application.\n• Cast &amp; Save: Starts projection immediately and saves your layout configurations.\n• Stop Projection: Immediately closes the active projection on your cluster screen.\n\n💡 TROUBLESHOOTING TIP: If casting to the dashboard is not working, check the System Diagnostics view. Confirm if the app is picking the correct display and run \'Test Overlay\' on the target screen until it displays successfully.</string>
+    <string name="info_desc_cluster_projection_simplified">How it works:\nThis menu is designed to configure how an app should be cast to your car\'s secondary instrument cluster display screen. You can select an app, choose its layout mode, configure custom dimensions/offsets, and add automated actions (simulated taps) that run when casting. Once configured, you can launch or toggle projection using steering wheel button mappings.</string>
+    <string name="info_title_cluster_layout_mode">Cluster Layout Mode</string>
+    <string name="info_desc_cluster_layout_mode">How it works:\nDefines how the app\'s projection display layout should be structured on the cluster screen.\n\nModes:\n• Auto-detect from car: Automatically matches the layout based on vehicle status.\n• Force Mini Mode: Preferred mode as it still allows the ADAS system/view to be visible.\n• Force Fullscreen Mode: Scales the projected app to fit the entire cluster display.</string>
+    <string name="info_title_projection_dimensions">Projection Dimensions &amp; Offsets</string>
+    <string name="info_desc_projection_dimensions">How it works:\nAllows you to override the default dimensions, offsets, and density (DPI) for rendering on the secondary screen.\n\nAdjustments:\n• Width / Height: Adjusts the rendering area resolution in pixels.\n• X / Y Offset: Positions the projected window on the physical cluster screen (aligns positive/negative coordinates).\n• Density DPI: Adjusts the rendering scale (zoom in/out) of the projected application. Lower values fit more content, higher values enlarge UI elements.</string>
+    <string name="info_title_app_automations">App Automations</string>
+    <string name="info_desc_app_automations" formatted="false">How it works:\nApp Automations are simulated screen taps executed automatically after the app is casted. This is useful for automatically dismissing warning prompts, clicking login buttons, or switching views.\n\nConfiguration:\n• Delay: Amount of milliseconds to wait after the casting starts before simulating the tap.\n• Coordinates (X, Y): Percentage-based position on the screen. (0%, 0%) represents the top-left corner, and (100%, 100%) represents the bottom-right corner.</string>
+
+    <string name="info_title_steering_wheel">Steering Wheel Button Mappings</string>
+    <string name="info_desc_steering_wheel">How it works:\nAllows you to reprogram the physical hardware buttons on your steering wheel to perform custom actions (like opening split-screen apps, adjusting the air conditioning, or toggling projection).\n\nActions &amp; Configuration:\n• Assign Action: Select the action to trigger:\n  - Launch App: Opens a chosen application on the main display.\n  - Launch App on Cluster: Opens the chosen application on the instrument cluster display.\n  - Split Screen Apps: Launches two applications side-by-side.\n    * Under Projected split screen mode, you can configure:\n      - Projected Target: Pick whether the first or second app is rendered inside the custom projection overlay.\n      - Split Ratio: Choose how much space each app occupies on the screen (1/3, 1/2, or 2/3).\n  - Toggle AC: Instantly turns AC power on/off.\n  - Toggle Driver Window: Rolls the driver\'s front window up or down.\n  - Toggle Cluster Projection: Sends the current app in the dashboard back to the main screen. If there is no app in the dashboard, it takes whatever app is currently open on the main screen and projects it to the cluster. Clicking it again pulls the app back to the main screen. (Note: Using \'Launch App on Cluster\' is highly recommended instead, as it is less prone to errors because it targets a specific app).</string>
+
+    <string name="info_title_car_controls">Car Controls</string>
+    <string name="info_desc_car_controls">How it works:\nThis section is for testing that the car-app integration works as expected. It allows manual control of windows and climate settings to verify that connectivity and commands are functioning properly.\n\nOptions:\n• Driver Front Window / All Windows: Roll down (open) or roll up (close) specific windows or all windows at once.\n• Climate Control (AC): Turn the vehicle\'s air conditioning on or off to test the connection.</string>
+
+    <string name="info_title_startup_sequence">Startup Sequence</string>
+    <string name="info_desc_startup_sequence">How it works:\nDefines a list of automated actions that execute one after another in a specified sequence when the car starts.\n\nDISCLAIMER: For this to work properly, you must go to the car\'s settings app, navigate to self-start settings, disable self-start, and uncheck this app to allow it to self-start.\n\nOptions:\n• Delay before action: Pause for up to 15 seconds before launching this step. NOTE: If multiple apps are opened at the same time, the system UI may become unstable or buggy. If this happens, add a short delay between launching apps until the sequence executes stably.\n• Add Action: Creates a new automated step in the sequence.\n• Test Run: Executes the entire sequence step-by-step in real-time, helping you test and fine-tune your delays.</string>
+
+    <string name="info_title_split_screen">Split Screen Compatibility</string>
+    <string name="info_desc_split_screen">How it works:\nDefines how the app coordinates split-screen modes, allowing full compatibility across different generations of the car\'s system UI.\n\nOptions:\n• Native Mode: Standard system split-screen. Recommended for systems that fully support native third-party app splitting.\n• Native UI 7 (DiLink 6): Natively patches installed applications by modifying their APK. This allows you to split-screen any app on DiLink 6 (UI 7).\n• Projected Mode: Custom split layout that overlays one app on top of another. Bypasses strict UI 7 split-screen restrictions and allows custom ratio adjustments.\n• Native (Simulated Tap): Bypasses split restrictions on certain firmware versions by simulating a precise screen touch/tap on the system\'s native split-screen toolbar button.</string>
+    <string name="projection_trouble_tip">Casting not working? Check if the app is picking the correct display. Click to open Diagnostics, scroll to Recognized Screens, and test overlays until one works on your dashboard.</string>
+    <string name="btn_open_diagnostics">Open Diagnostics</string>
+    <string name="density_dpi">Density DPI</string>
+
+    <!-- Projection Automations -->
+    <string name="automations_title">App Automations</string>
+    <string name="automations_desc" formatted="false">These actions run automatically when the application is cast to the cluster display, allowing simulated taps at specific coordinates. X controls the horizontal position (0% left to 100% right), and Y controls the vertical position (0% top to 100% bottom), where (0%, 0%) represents the top-left corner.</string>
+    <string name="btn_add_task">Add Task</string>
+    <string name="label_delay_ms">Delay: %1$d ms</string>
+    <string name="label_x_percent">X Coordinate: %1$.1f%%</string>
+    <string name="label_y_percent">Y Coordinate: %1$.1f%%</string>
+    <string name="dialog_add_task_title">Add Automated Task (0,0 is Top-Left)</string>
+    <string name="dialog_edit_task_title">Edit Automated Task (0,0 is Top-Left)</string>
+    <string name="task_saved">Task saved</string>
+    <string name="task_deleted">Task #%1$d deleted</string>
+    <string name="empty_automations_hint">No automated tasks yet. Tap \"Add Task\" to begin.</string>
+    <string name="label_delay_header_ms">Delay before task (ms)</string>
+    <string name="x_percent_label">X - Horizontal Position (0% = Left)</string>
+    <string name="y_percent_label">Y - Vertical Position (0% = Top)</string>
+    <string name="split_ratio_native_ui7_label">First App Target Size</string>
+    <string name="split_ratio_native_ui7_info_title">First App Launch Behavior</string>
+    <string name="split_ratio_native_ui7_info_desc">This setting determines where the first application launches:\n\n• If NO split screen is currently active: The first app will open on the Left side, and the second app will open on the Right side.\n• If a split screen is ALREADY open: The first app will launch in the specific target size/pane selected (1/3 or 2/3).</string>
+    <string name="diag_info_proxy_title">Proxy Service Status</string>
+    <string name="diag_info_proxy_desc">The proxy is a vital part of the application. If it is not running, most features and the application itself will not work. We advise checking if USB/ADB debugging is enabled and authorized in your developer options, restarting the app or the car, and ensuring you grant ADB access to this application.</string>
+    <string name="diag_info_sdk_title">SDK Direct Access Status</string>
+    <string name="diag_info_sdk_desc">The SDK is a minor component that could be ignored, not all vehicles are compatible. However, direct vehicle access and commands (such as rolling down the windows) as well as some auto detection features will not function without it.</string>
+    <string name="diag_info_accessibility_title">Key Interception Service Status</string>
+    <string name="diag_info_accessibility_desc">This service handles steering wheel key interception and button remapping. It is most likely to run and work properly if the main ADB proxy is up and connected.</string>
+    <string name="info_title_byd_map_sync">BYD Map Layout Sync</string>
+    <string name="info_desc_byd_map_sync">These configurations are applied within this application. However, you must also change the corresponding setting inside the official BYD map app to match the chosen mode (Mini or Fullscreen).\n\nThis is especially important for DiLink 5 systems; on DiLink 6 it does not matter.</string>
+</resources>
